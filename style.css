@@ -1,0 +1,257 @@
+
+        body{
+            margin:0;
+            padding:0;
+            display: block;
+            background-color: #D2E9E9;
+        }
+        .div1{
+            height:80px;
+            width: 100%;
+            /* background-color:rgb(60, 60, 135); */
+            background-color: #213555;
+          /* background-color: #0F4C75; */
+           
+        }
+        .div2{
+            padding-left: 160px; 
+            padding-right: 195px; 
+            padding-top: 25px; 
+        }
+        .x1{
+         color: #FF0060;
+         font-size: 35px;
+         font-family: cursive;
+        }
+        .wed-bar{
+            display: inline-block;
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+            font-family: cursive;
+            font-size: 30px;
+        }
+        .menu-bar{
+            display: inline-block;
+            float: right;
+            margin-top: 6px;
+        }
+        .nav-bar{
+            color: rgb(221, 84, 84);
+            margin-left: 18px;
+            margin-top: 10px;
+            font-size: large;
+            color: white;
+        } 
+        .home{
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('images/back-1.jpg');
+            background-size: cover;
+            height: 100vh;
+        }
+    .search-box{
+        text-align: center;
+        padding-top: 22rem;
+       }
+    #wedding-logo{
+      color:white;
+      font-size: 60px;
+      font-weight: 600;
+
+       }
+    #tag{
+        color: white;
+        font-size: medium;
+        margin-top: 2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+         }
+   .search-field {
+            width: 18rem;
+            height: 2.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--clr2);
+            margin-top: 12px;
+            border-radius: 4px;
+            margin-right: 4px;
+            padding-left: 5px;
+         }
+    option{
+            color: brown;
+            border-radius: 3px;
+         }
+    .btn{
+            width: 8rem;
+            background-color: rgb(239, 58, 58);
+            height: 2.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    .service{
+            color:black;
+            font-size: 2rem;
+            margin-top: 50px;
+            text-align: center;
+         }
+    .title{
+            font-weight: 600;
+            font-size: 2rem;
+            font-family: sans-serif;
+            letter-spacing: .2rem;
+            text-align: center;
+         }
+    .service-row{
+            margin-top: 20px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 15px;
+            padding: 50px;
+         }
+    .service-col{
+            background-color:rgb(189, 187, 187);
+            height:13rem;
+            background-image: url(images/back-2.png);
+            background-size: cover;
+            border-radius: 15px;
+
+         }
+    .s2{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            padding-left: 200px;
+            padding-right: 200px;
+            margin-top: 20px;
+         }
+    .s3{
+            background-color:rgb(245, 236, 245);;
+            padding: 10px;
+            border-width: 3px;
+            border-color: brown;
+         }
+    .s4{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 35px;
+            padding-left: 200px;
+            padding-right: 200px;
+            height: 350px;
+         }
+    .vendor-title{
+            font-weight: 700;
+            font-size: larger;
+         }
+    .vendor-price{
+            text-align: center;
+            color: rgb(109, 208, 113);
+            font-size: large;
+            background-color: darkred;
+         }
+
+         .venue{
+            margin-top: 70px; 
+          }
+          .venue-list{
+           margin-top: 10px;
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            column-gap: 10px;
+            row-gap: 20px;
+            padding-left: 150px;
+            padding-right: 150px;
+            background-size: cover;
+          }
+          .venue-box{
+           position: relative;
+          }
+          .venue-info{
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             height: 100%;
+            width: 100%;
+             transform: translate(-50%, -50%);
+             opacity: 0;
+             background-color: rgba(46, 39, 40, 0.5);
+             color: #fff;
+             padding-left: 10px;
+             transition: 1s ease;
+             text-align: center;
+             font-weight: 700;     
+          } 
+         .venue-box:hover .venue-info{
+            opacity:1; 
+         }
+
+         .invite{
+            margin-top:60px;
+          }
+         .invitation-row{
+          margin-top:20px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding-left:200px;
+          padding-right:200px;
+          column-gap: 10px;
+          row-gap: 20px;
+         
+         }
+         .card{
+          height: 300px;
+          width: 350px;
+          border-color: rgb(106, 176, 212);
+          border-width: 3px;
+          
+         }
+
+         .contact{
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: rgb(236, 68, 90);
+            height: 360px;
+          }
+          .container{
+            padding: 30px;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+          }
+          .social{
+            margin-top:15px ;
+          }
+          .f-container{
+            padding-left: 30px;
+            padding-top:70px;
+            color: white;
+            font-size: large;
+            font-weight: 400;
+            letter-spacing: 1px;
+          }
+          
+          .fab{
+            color: #0F4C75;
+            padding-left: 7px;
+            padding-top: 7px;
+            background-color: white;
+            width: 30px;
+            height: 30px;
+           border-radius: 8px;
+          }
+          .location{
+            display: block;
+            color: white;
+            font-size: large;
+            padding: 3px;
+          }
+          .fas{
+            color: #0F4C75;
+            
+          }
+          .copyright{
+            text-align: center;
+            /* background-color: rgb(3, 3, 91); */
+            background-color: #0F4C75;
+            padding: 2rem 0;
+            color: white;
+           }
